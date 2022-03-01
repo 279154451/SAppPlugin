@@ -163,6 +163,13 @@ public class ActivityManagerHook {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 加载外部的资源文件
+     * @param context
+     * @param apkPath
+     * @return
+     */
     public static Resources loadResource(Context context,String apkPath) {
         try {
             AssetManager assetManager = AssetManager.class.newInstance();
