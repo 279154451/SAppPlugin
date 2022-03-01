@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.single.code.app.pluginlib">
+<application>
+    <activity android:name=".PluginProxyActivity"
+/></application>
+</manifest>
